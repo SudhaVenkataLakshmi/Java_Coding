@@ -19,7 +19,7 @@ public class Prime {
           if (isPrime) {
             System.out.println(num + " is a Prime number.");
         } else {
-            System.out.println(num + " is NOT a Prime number.");
+            System.out.println(num + " is not a Prime number.");
         }
 
         sc.close();
