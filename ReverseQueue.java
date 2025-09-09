@@ -5,9 +5,9 @@ public class ReverseQueue {
         Queue<Integer> q = new LinkedList<>();
         q.add(1); q.add(2); q.add(3); q.add(4);
 
-        System.out.println("Original Queue: " + q);
+        System.out.println("Original Queue is: " + q);
         reverse(q);
-        System.out.println("Reversed Queue: " + q);
+        System.out.println("Reversed Queue is: " + q);
     }
 
     static void reverse(Queue<Integer> q) {
