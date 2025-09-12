@@ -1,7 +1,7 @@
 import java.util.*;
 public class ReverseString {
     public static void main(String [] args){
-        String str = "Hello Java";
+        String str = "Sudha Venkata Lakshmi";
         Stack<Character> stack = new Stack<>();
         for(char c : str.toCharArray()){
             stack.push(c);
