@@ -2,7 +2,7 @@ import java.util.*;
 
 public class FirstNonRepeated {
     public static void main(String[] args) {
-        String str = "Process";
+        String str = "Regression";
         Map<Character, Integer> map = new LinkedHashMap<>();
 
         for (char c : str.toCharArray()) {
