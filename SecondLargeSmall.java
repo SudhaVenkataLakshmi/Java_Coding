@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class SecondLargeSmall {
     public static void main(String [] args){
-        int arr[] = {11,20,31,44,78,23};
+        int arr[] = {12,43,99,23,98,17,2};
         Arrays.sort(arr);
         System.out.println("Sorted Array: " + Arrays.toString(arr));
         int n = arr.length;
