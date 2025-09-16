@@ -12,7 +12,7 @@ public class Factorial {
             }
             System.out.println("Factorial value for " +val+ " is: " +fact);
         }else{
-            System.out.println("Factorial value is not defined for negative numbers.");   
+            System.out.println("Factorial value is not defined for negative values.");   
         }
         scanner.close();
     }
