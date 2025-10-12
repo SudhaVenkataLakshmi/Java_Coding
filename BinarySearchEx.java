@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class BinarySearchEx {
     public static int binarySearch(int arr[], int key){
@@ -18,8 +19,9 @@ public class BinarySearchEx {
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int arr[] = {2,5,7,12,24,45,60};
-        System.out.println("Enter the ELement to Search: ");
+        int arr[] = {2,56,80,52,70,42,12,5};
+        Arrays.sort(arr);
+        System.out.println("Enter the Element to Search: ");
         int key = sc.nextInt();
         int result = binarySearch(arr, key);
         
