@@ -2,7 +2,7 @@ import java.util.*;
 
 public class KthLargest {
     public static void main(String[] args) {
-        int[] nums = {25,70,40,32,20,15,10,3};
+        int[] nums = {20,50,32,60,42,8,56};
         int k = 2;
         System.out.println("Kth Largest: " + findKthLargest(nums, k));
     }
