@@ -3,7 +3,7 @@ import java.util.*;
 public class SumAvgArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Array Values: ");
+        System.out.println("Enter Array Elements: ");
         int n = sc.nextInt();
         int arr[] = new int[n];
         int sum = 0;
