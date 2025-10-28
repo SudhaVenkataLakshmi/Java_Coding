@@ -25,7 +25,7 @@ public class GcdLcm {
         int gcdVal = gcd(num1, num2);
         int lcmVal = lcm(num1, num2);
 
-        System.out.println("GCD (HCF) of " + num1 + " and " + num2 + " = " + gcdVal);
+        System.out.println("GCD of " + num1 + " and " + num2 + " = " + gcdVal);
         System.out.println("LCM of " + num1 + " and " + num2 + " = " + lcmVal);
 
         sc.close();
