@@ -7,7 +7,7 @@ public class ArraySum {
         return sum;
     }
     public static void main(String [] args){
-        int [] arr = {20,60,3,12,62,73};
+        int [] arr = {12,5,8,9,10};
         System.out.println("Sum: " + calculateSum(arr));
     }
 }
