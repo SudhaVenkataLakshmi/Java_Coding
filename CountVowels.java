@@ -1,6 +1,6 @@
 public class CountVowels {
     public static void main(String[] args) {
-        String str = "JAVA CODING";
+        String str = "Java Practice";
         str = str.toLowerCase();
 
         int vowels = 0, consonants = 0;
