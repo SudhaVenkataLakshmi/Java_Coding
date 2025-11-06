@@ -8,7 +8,7 @@ public class CheckSortedArray {
         return true; 
     }
     public static void main(String[] args) {
-        int arr1[] = {5,7,8,10,13};
+        int arr1[] = {2,7,5,1,12,8,9};
         int arr2[] = {1,2,5,7,9,10,12,17};
 
         System.out.println("arr1 is sorted? " + isSorted(arr1));
