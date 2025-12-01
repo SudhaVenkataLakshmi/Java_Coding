@@ -23,7 +23,7 @@ public class BinarySearchEx {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        int arr[] = {12,5,7,9,10,23};
+        int arr[] = {11,4,6,8,5,10,15,20};
         Arrays.sort(arr); 
 
         System.out.println("Sorted Array: " + Arrays.toString(arr));
