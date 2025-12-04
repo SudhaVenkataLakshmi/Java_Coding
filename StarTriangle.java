@@ -3,7 +3,7 @@ import java.util.*;
 public class StarTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no.of steps:");
+        System.out.println("Enter no.of lines:");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
