@@ -6,7 +6,7 @@ public class UpperToLower {
         System.out.print("Enter any sentence with uppercase format: ");
         String input = scanner.nextLine();
         String lowercase = input.toLowerCase();
-        System.out.println("Lowercase version: " + lowercase);
+        System.out.println("Lowercase format: " + lowercase);
         scanner.close();
         
     }
