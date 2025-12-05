@@ -17,8 +17,8 @@ class Student {
 
 public class StudentTest {
     public static void main(String[] args) {
-        Student s1 = new Student("Sushma", 101, 89.5);
-        Student s2 = new Student("Sudha", 102, 76.0);
+        Student s1 = new Student("Sushma", 501, 89.9);
+        Student s2 = new Student("Sudha", 502, 76.5);
         s1.displayDetails();
         System.out.println();
         s2.displayDetails();
