@@ -13,8 +13,8 @@ public class CharCount {
             else special++;
         }
 
-        System.out.println("No. of Letters in given String: " + letters);
-        System.out.println("No.of Digits in given String: " + digits);
-        System.out.println("No.of Special characters in given String: " + special);
+        System.out.println("No. of Letters: " + letters);
+        System.out.println("No.of Digits: " + digits);
+        System.out.println("No.of Special characters: " + special);
     }
 }
