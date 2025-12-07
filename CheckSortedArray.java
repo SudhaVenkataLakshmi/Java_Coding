@@ -9,7 +9,7 @@ public class CheckSortedArray {
     }
     public static void main(String[] args) {
         int arr1[] = {2,5,6,8,9,10};
-        int arr2[] = {12,4,6,7,9,50,23};
+        int arr2[] = {12,20,40,15,10,9};
 
         System.out.println("arr1 is sorted? " + isSorted(arr1));
         System.out.println("arr2 is sorted? " + isSorted(arr2));
