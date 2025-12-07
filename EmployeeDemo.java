@@ -16,8 +16,8 @@ class Employee {
 
 public class EmployeeDemo {
     public static void main(String[] args) {
-        Employee emp1 = new Employee(3001, "Sandhya", 70000);
-        Employee emp2 = new Employee(3002, "Sushma", 62000);
+        Employee emp1 = new Employee(701, "Sandhya", 65000);
+        Employee emp2 = new Employee(702, "Sushma", 50000);
 
         emp1.display();
         emp2.display();
