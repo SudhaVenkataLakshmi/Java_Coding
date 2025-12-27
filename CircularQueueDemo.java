@@ -37,9 +37,9 @@ class CircularQueue {
 public class CircularQueueDemo {
     public static void main(String[] args) {
         CircularQueue cq = new CircularQueue(5);
-        cq.enqueue(90);
+        cq.enqueue(60);
         cq.enqueue(25);
-        cq.enqueue(35);
+        cq.enqueue(55);
         cq.display(); 
         cq.dequeue();
         cq.display();  
