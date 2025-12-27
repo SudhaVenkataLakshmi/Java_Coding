@@ -2,7 +2,7 @@ import java.util.*;
 
 public class FrequencyCount {
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(3,4,2,2,4,5,6,7,5,6,5,4,3,4);
+        List<Integer> numbers = Arrays.asList(3,4,3,2,3,1,1,1,2,5,7,8,6,4);
 
         Map<Integer, Integer> freqMap = new HashMap<>();
 
