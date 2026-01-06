@@ -16,11 +16,11 @@ class Employee {
 
 public class EmployeeDemo {
     public static void main(String[] args) {
-        Employee emp1 = new Employee(708, "Suresh", 52000);
-        Employee emp2 = new Employee(609, "Sudhaa", 64000);
+        Employee e1 = new Employee(708, "Suresh", 52000);
+        Employee e2 = new Employee(609, "Sudhaa", 64000);
 
-        emp1.display();
-        emp2.display();
+        e1.display();
+        e2.display();
     }
 }
 
