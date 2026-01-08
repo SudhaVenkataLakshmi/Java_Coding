@@ -1,6 +1,6 @@
 public class ResArray {
     public static void main(String[] args){
-        int[] arr = {7,8,5,5,9,2,2,0,1,6,6,7,8,9,10,15,4,3};
+        int[] arr = {7,8,5,5,9,2,2,0,1,6,6,7,8,9,10,15,4,3,19,16,11};
         int n = arr.length;
         int max_val = 0;
         for(int start = 0; start < n; start++){
