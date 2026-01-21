@@ -19,7 +19,7 @@ class Solution {
 
     public static void main(String[] args){
         int[] nums = {2,7,11,15,20};
-        int target = 13;
+        int target = 17;
         int[] result = twoSum(nums, target);
         System.out.println(Arrays.toString(result));
     }
