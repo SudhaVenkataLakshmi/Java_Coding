@@ -18,8 +18,8 @@ class Solution {
     }
 
     public static void main(String[] args){
-        int[] nums = {2,7,11,15,20,35};
-        int target = 17;
+        int[] nums = {2,7,11,15,20,35,40};
+        int target = 60;
         int[] result = twoSum(nums, target);
         System.out.println(Arrays.toString(result));
     }
