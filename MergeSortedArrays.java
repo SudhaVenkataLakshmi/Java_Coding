@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class MergeSortedArrays {
     public static void main(String [] args){
-        int arr1 [] = {1,2,4,6,9};
+        int arr1 [] = {1,2,4,9,12,15};
         int arr2 [] = {3,5,7,10};
         int n1 = arr1.length;
         int n2 = arr2.length;
