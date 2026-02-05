@@ -5,7 +5,7 @@ public class MinPriorityQueue {
         PriorityQueue<Integer> minPQ = new PriorityQueue<>();
         minPQ.add(1);
         minPQ.add(2);
-        minPQ.add(8);
+        minPQ.add(6);
         minPQ.add(3);
         minPQ.forEach((Integer val) -> System.out.println(val));
         while(!minPQ.isEmpty()){
