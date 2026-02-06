@@ -28,6 +28,12 @@ public static void main(String[] args){
 
 String s = "  Hello Sudha  ";
 System.out.println(s.trim());
+
+String name = "Java is Easy";
+String[] words = name.split(" ");
+for(String word : words){
+    System.out.println(word);
+    }
   }
 }
 
