@@ -26,7 +26,7 @@ public static void main(String[] args){
 // String str = "I love Coding in Java";
 // System.out.println(str.contains("Java"));
 
-String s = "  Hello Sudha  ";
+String s = "  Hello Sudha     ";
 System.out.println(s.trim());
 
 String name = "Coding Practice makes Powerful";
