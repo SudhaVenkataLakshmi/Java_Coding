@@ -16,10 +16,17 @@ public static void main(String[] args){
 //     System.out.println(str1.replace('a', 'o'));
 
 
-String s1 = "Hello";
-String s2 = "Hello";
-String s3 = "HELLO";
-System.out.println(s1.equals(s2));
-System.out.println(s1.equalsIgnoreCase(s3));
+// String s1 = "Hello";
+// String s2 = "Hello";
+// String s3 = "HELLO";
+// System.out.println(s1.equals(s2));
+// System.out.println(s1.equalsIgnoreCase(s3));
+
+
+String str = "I love Coding in Java";
+System.out.println(str.contains("Java"));
   }
 }
+
+
+
