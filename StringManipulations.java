@@ -12,5 +12,6 @@ public static void main(String[] args){
     System.out.println(str1.concat(str3));
     
     System.out.println(str2.charAt(5));
+    System.out.println(str2.substring(0,7));
   }
 }
