@@ -10,5 +10,7 @@ public static void main(String[] args){
     String str2 = "Programing ";
     String str3 = "Language";
     System.out.println(str1.concat(str3));
+    
+    System.out.println(str2.charAt(5));
   }
 }
