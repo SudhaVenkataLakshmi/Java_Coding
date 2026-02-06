@@ -6,8 +6,8 @@ public static void main(String[] args){
     // System.out.println(s.toLowerCase());
     // System.out.println(name.toUpperCase());
 
-    String str1 = "Hello";
-    String str2 = "Guys..";
+    String str1 = "Java";
+    String str2 = "Programing";
     System.out.println(str1.concat(str2));
   }
 }
