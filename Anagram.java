@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Anagram {
     public static void main(String[] args){
-        String s1 = "listem";
+        String s1 = "listen";
         String s2 = "silent";
 
         char[] arr1 = s1.toCharArray();
