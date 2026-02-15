@@ -1,6 +1,6 @@
 public class LongestSubString {
     public static void main(String[] args) {
-        String s = "abdshfssbs";
+        String s = "abcabcbb";
         int maxLength = 0;
 
         for(int i = 0; i < s.length(); i++) {
