@@ -1,6 +1,6 @@
 public class LongestWord {
     public static void main(String[] args){
-        String s = "Java Programming is easy";
+        String s = "Java Programming is very Powerful";
         String[] words =  s.split(" ");
 
         String longest = "";
@@ -12,5 +12,8 @@ public class LongestWord {
         System.out.println("Longest word: "+longest);
     }
 }
+
+
+
 
 
