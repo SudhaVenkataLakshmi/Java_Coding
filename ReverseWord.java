@@ -1,6 +1,6 @@
 public class ReverseWord {
     public static void main(String[] args){
-        String s = "Java Programs are very easy";
+        String s = "Hello People!";
         String[] words = s.split(" ");
         for(String word : words){
             String rev = "";
