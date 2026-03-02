@@ -1,17 +1,15 @@
 import java.util.Scanner;
 
-public class SumOfDigits {
+public class SumOfDigits{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any Number: ");
-        int num = sc.nextInt();
+        int n = sc.nextInt();
         int sum = 0;
-        while(num != 0){
-            int digit = num % 10;
-            sum += digit;
-            num = num / 10;
+        while(n > 0){
+            sum += n % 10;
+            n /= 10;
         }
-        System.out.println("Sum of Digits of given number: "+sum);
-        sc.close();
+        System.out.println("Sum of Digits: " +sum);
     }
 }
