@@ -405,17 +405,36 @@
 //     }
 // }
 
+// import java.util.Scanner;
+
+// public class Practice{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter any String: ");
+//         String str = sc.nextLine();
+//         String rev = "";
+//         for(int i = str.length()-1; i>=0; i--){
+//             rev = rev + str.charAt(i);
+//         }
+//         System.out.println("reversed: " +rev);
+//     }
+// }
+
 import java.util.Scanner;
 
-public class Practice{
-    public static void main(String[]args){
+public class Practice {
+
+     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any String: ");
         String str = sc.nextLine();
         String rev = "";
-        for(int i = str.length()-1; i>=0; i--){
+        for(int i = str.length()-1; i >= 0; i--){
             rev = rev + str.charAt(i);
         }
-        System.out.println("reversed: " +rev);
-    }
+        if(rev.equals(str))
+            System.out.println("Palindrime");
+        else
+            System.out.println("Not Palindrome");
+     }
 }
