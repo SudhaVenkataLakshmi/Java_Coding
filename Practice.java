@@ -420,21 +420,39 @@
 //     }
 // }
 
+// import java.util.Scanner;
+
+// public class Practice {
+
+//      public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter any String: ");
+//         String str = sc.nextLine();
+//         String rev = "";
+//         for(int i = str.length()-1; i >= 0; i--){
+//             rev = rev + str.charAt(i);
+//         }
+//         if(rev.equals(str))
+//             System.out.println("Palindrime");
+//         else
+//             System.out.println("Not Palindrome");
+//      }
+// }
+
 import java.util.Scanner;
 
 public class Practice {
 
-     public static void main(String[] args){
+    public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter any String: ");
-        String str = sc.nextLine();
-        String rev = "";
-        for(int i = str.length()-1; i >= 0; i--){
-            rev = rev + str.charAt(i);
-        }
-        if(rev.equals(str))
-            System.out.println("Palindrime");
-        else
-            System.out.println("Not Palindrome");
-     }
+        System.out.println("Enter First String: ");
+        String str1 = sc.nextLine();
+        System.out.println("Enter Second String: ");
+        String str2 = sc.nextLine();
+
+    if(str1.equals(str2))
+        System.out.println("Both Strings are Equal");
+    else
+        System.out.println("Strings are NOT Equal");
+    }
 }
