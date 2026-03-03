@@ -461,26 +461,47 @@
 
 // Methods: 
 
+// public class Practice {
+
+//     // Method-1
+//     static void greet(){
+//         System.out.println("Hello Guys!");
+//     }
+
+//     // Method-2
+//     static void add(int a, int b){
+//         System.out.println("Sum = " +(a+b));
+//     }
+
+//     // Method-3
+//     static int square(int n){
+//         return n*n;
+//     }
+//     public static void main(String[] args){
+//         greet();
+//         add(10,50);
+//         int result = square(7);
+//         System.out.println("Square: " +result);
+//     }
+// }
+
+
+
 public class Practice {
 
-    // Method-1
-    static void greet(){
-        System.out.println("Hello Guys!");
+    static void sum(int a, int b, int c){
+        System.out.println("Sum: " +(a+b+c));
+    }
+    static int max(int n1, int n2){
+        if(n1 > n2){
+            return n1;
+        }else
+            return n2;
     }
 
-    // Method-2
-    static void add(int a, int b){
-        System.out.println("Sum = " +(a+b));
-    }
-
-    // Method-3
-    static int square(int n){
-        return n*n;
-    }
     public static void main(String[] args){
-        greet();
-        add(10,50);
-        int result = square(7);
-        System.out.println("Square: " +result);
+        sum(20,45,15);
+        int biggest = max(12,7);
+        System.out.println("Max Value: "+biggest);
     }
 }
