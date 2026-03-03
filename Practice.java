@@ -487,21 +487,57 @@
 
 
 
+// public class Practice {
+
+//     static void sum(int a, int b, int c){
+//         System.out.println("Sum: " +(a+b+c));
+//     }
+//     static int max(int n1, int n2){
+//         if(n1 > n2){
+//             return n1;
+//         }else
+//             return n2;
+//     }
+
+//     public static void main(String[] args){
+//         sum(20,45,15);
+//         int biggest = max(12,7);
+//         System.out.println("Max Value: "+biggest);
+//     }
+// }
+
+
 public class Practice {
 
-    static void sum(int a, int b, int c){
-        System.out.println("Sum: " +(a+b+c));
+    static boolean isEven(int n){
+        if(n % 2 == 0)
+            return true;
+        else
+            return false;
     }
-    static int max(int n1, int n2){
-        if(n1 > n2){
-            return n1;
-        }else
-            return n2;
+    static int square(int n){
+        return n * n;
+    }
+    static boolean isPrime(int n){
+        if(n <= 0){
+            return false;
+        }
+        else {
+            for(int i = 2; i <= n / 2; i++){
+                if( n % i == 0){
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args){
-        sum(20,45,15);
-        int biggest = max(12,7);
-        System.out.println("Max Value: "+biggest);
+        isEven(6);
+        System.out.println("isEven(6): " +isEven(6));
+        int result = square(8);
+        System.out.println("Square: " + result);
+        isPrime(7);
+        System.out.println("isPrime(7): " +isPrime(7));
     }
 }
