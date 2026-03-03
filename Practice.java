@@ -439,20 +439,48 @@
 //      }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// public class Practice {
+
+//     public static void main (String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter First String: ");
+//         String str1 = sc.nextLine();
+//         System.out.println("Enter Second String: ");
+//         String str2 = sc.nextLine();
+
+//     if(str1.equals(str2))
+//         System.out.println("Both Strings are Equal");
+//     else
+//         System.out.println("Strings are NOT Equal");
+//     }
+// }
+
+
+
+// Methods: 
 
 public class Practice {
 
-    public static void main (String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter First String: ");
-        String str1 = sc.nextLine();
-        System.out.println("Enter Second String: ");
-        String str2 = sc.nextLine();
+    // Method-1
+    static void greet(){
+        System.out.println("Hello Guys!");
+    }
 
-    if(str1.equals(str2))
-        System.out.println("Both Strings are Equal");
-    else
-        System.out.println("Strings are NOT Equal");
+    // Method-2
+    static void add(int a, int b){
+        System.out.println("Sum = " +(a+b));
+    }
+
+    // Method-3
+    static int square(int n){
+        return n*n;
+    }
+    public static void main(String[] args){
+        greet();
+        add(10,50);
+        int result = square(7);
+        System.out.println("Square: " +result);
     }
 }
