@@ -374,13 +374,33 @@
 
 // replace() -----------------------------
 
+// import java.util.Scanner;
+
+// public class Practice{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter any String: ");
+//         String name = sc.nextLine();
+//         System.out.println("Length: " +name.length());
+//         System.out.println("UpperCase Format: " +name.toUpperCase());
+//         System.out.println("First Character: " +name.charAt(0));
+//     }
+// }
+
 import java.util.Scanner;
 
 public class Practice{
-    public static void main(String[] args){
+    public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any String: ");
-        String name = sc.nextLine();
-        System.out.println("Length: "+name.length());
+        String str = sc.nextLine().toLowerCase();
+        int count = 0;
+        for(int i = 0; i < str.length(); i++){
+            char ch = str.charAt(i);
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+                count++;
+            }
+        }
+        System.out.println("Total Vowels: "+count);
     }
 }
