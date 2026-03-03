@@ -285,23 +285,45 @@
 //     }
 // }
 
+// import java.util.Scanner;
+
+// public class Practice{
+//     public static void main(String[]args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter Size of Array: ");
+//         int n = sc.nextInt();
+//         int[] array = new int[n];
+//         System.out.println("Enter " +n+ " Elements: ");
+//         for(int i = 0; i < n; i++){
+//             array[i] = sc.nextInt();
+//         }
+//         int sum = 0;
+//         for(int i = 0; i < n; i++){
+//             sum = sum + array[i];
+//         }
+//         System.out.println("Sum of Elements in Array: " +sum);
+//     }
+// }
+
 import java.util.Scanner;
 
 public class Practice{
-    public static void main(String[]args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Size of Array: ");
+        System.out.println("Enter size of Array: ");
         int n = sc.nextInt();
-        int[] array = new int[n];
+        int[] arr = new int[n];
         System.out.println("Enter " +n+ " Elements: ");
         for(int i = 0; i < n; i++){
-            array[i] = sc.nextInt();
+            arr[i] = sc.nextInt();
         }
-        int sum = 0;
-        for(int i = 0; i < n; i++){
-            sum = sum + array[i];
+        int max = arr[0];
+        for(int i = 1; i < n; i++){
+            if(arr[i] > max){
+                max = arr[i];
+            }
         }
-        System.out.println("Sum of Elements in Array: " +sum);
+        System.out.println("Max Number: "+max);
     }
 }
 
