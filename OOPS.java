@@ -18,32 +18,54 @@
 
 
 
-class Car{
-    String brand;
-    String model;
-    double price;
-    void displayCar(){
-        System.out.println("Car Brand: " +brand);
-        System.out.println("Car Model: " +model);
-        System.out.println("Car Price: " +price);
+// class Car{
+//     String brand;
+//     String model;
+//     double price;
+//     void displayCar(){
+//         System.out.println("Car Brand: " +brand);
+//         System.out.println("Car Model: " +model);
+//         System.out.println("Car Price: " +price);
+//     }
+// }
+
+
+// public class OOPS {
+//     public static void main(String[] args){
+//         Car c1 = new Car();
+//         Car c2 = new Car();
+
+//         c1.brand = "Toyoto";
+//         c1.model = "Innova";
+//         c1.price = 2000000;
+//         c1.displayCar();
+
+//         c2.brand = "Hyundai";
+//         c2.model = "Creta";
+//         c2.price = 1800000;
+//         c2.displayCar();
+//     }
+    
+// }
+
+
+
+class Student {
+    String name;
+    int age;
+    Student(){
+        name = "Sudha";
+        age = 23;
+    }
+    void display(){
+        System.out.println(name);
+        System.out.println(age);
     }
 }
-
-
 public class OOPS {
-    public static void main(String[] args){
-        Car c1 = new Car();
-        Car c2 = new Car();
-
-        c1.brand = "Toyoto";
-        c1.model = "Innova";
-        c1.price = 2000000;
-        c1.displayCar();
-
-        c2.brand = "Hyundai";
-        c2.model = "Creta";
-        c2.price = 1800000;
-        c2.displayCar();
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.display();
     }
     
 }
