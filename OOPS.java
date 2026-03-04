@@ -50,22 +50,43 @@
 
 
 
-class Student {
+// class Student {
+//     String name;
+//     int age;
+//     Student(){
+//         name = "Sudha";
+//         age = 23;
+//     }
+//     void display(){
+//         System.out.println(name);
+//         System.out.println(age);
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Student s1 = new Student();
+//         s1.display();
+//     }
+    
+// }
+
+class Student{
     String name;
     int age;
-    Student(){
-        name = "Sudha";
-        age = 23;
-    }
-    void display(){
-        System.out.println(name);
-        System.out.println(age);
-    }
+Student(String n, int a){
+    name = n;
+    age = a;
+}
+void display(){
+    System.out.println(name + " with age: " +age);
+}
 }
 public class OOPS {
-    public static void main(String[] args) {
-        Student s1 = new Student();
+    public static void main(String[] args){
+        Student s1 = new Student("Sudha", 25);
+        Student s2 = new Student("Sushma",22);
         s1.display();
+        s2.display();
     }
     
 }
