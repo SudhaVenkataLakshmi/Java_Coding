@@ -70,23 +70,48 @@
     
 // }
 
-class Student{
-    String name;
-    int age;
-Student(String n, int a){
-    name = n;
-    age = a;
-}
-void display(){
-    System.out.println(name + " with age: " +age);
-}
+// class Student{
+//     String name;
+//     int age;
+// Student(String n, int a){
+//     name = n;
+//     age = a;
+// }
+// void display(){
+//     System.out.println(name + " with age: " +age);
+// }
+// }
+// public class OOPS {
+//     public static void main(String[] args){
+//         Student s1 = new Student("Sudha", 25);
+//         Student s2 = new Student("Sushma",22);
+//         s1.display();
+//         s2.display();
+//     }
+    
+// }
+
+class Car{
+    String brand;
+    String model;
+    int price;
+    Car(String b, String m, int p){
+        brand = b;
+        model = m;
+        price = p;
+    }
+    void displayCar(){
+        System.out.println("Car Brand: " +brand);
+        System.out.println("Car Model: " +model);
+        System.out.println("Car Price: " +price);
+    }
 }
 public class OOPS {
+
     public static void main(String[] args){
-        Student s1 = new Student("Sudha", 25);
-        Student s2 = new Student("Sushma",22);
-        s1.display();
-        s2.display();
+        Car c1 = new Car("Toyoto", "Innova",2000000);
+        Car c2 = new Car("Hyundai", "Creta", 1800000);
+        c1.displayCar();
+        c2.displayCar();
     }
-    
 }
