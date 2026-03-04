@@ -33,10 +33,17 @@ class Car{
 public class OOPS {
     public static void main(String[] args){
         Car c1 = new Car();
+        Car c2 = new Car();
+
         c1.brand = "Toyoto";
         c1.model = "Innova";
         c1.price = 2000000;
         c1.displayCar();
+
+        c2.brand = "Hyundai";
+        c2.model = "Creta";
+        c2.price = 1800000;
+        c2.displayCar();
     }
     
 }
