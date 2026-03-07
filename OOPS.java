@@ -93,56 +93,56 @@
 
 
 
-// class Car{
-//     String brand;
-//     String model;
-//     int price;
-//     Car(String b, String m, int p){
-//         brand = b;
-//         model = m;
-//         price = p;
-//     }
-//     void displayCar(){
-//         System.out.println("Car Brand: " +brand);
-//         System.out.println("Car Model: " +model);
-//         System.out.println("Car Price: " +price);
-//     }
-// }
-// public class OOPS {
-
-//     public static void main(String[] args){
-//         Car c1 = new Car("Toyoto", "Innova",2000000);
-//         Car c2 = new Car("Hyundai", "Creta", 1800000);
-//         c1.displayCar();
-//         c2.displayCar();
-//     }
-// }
-
 class Car{
     String brand;
     String model;
     int price;
-    Car(String brand, String model, int price){
-        this.brand = brand;
-        this.model = model;
-        this.price = price;
+    Car(String b, String m, int p){
+        brand = b;
+        model = m;
+        price = p;
     }
     void displayCar(){
-        System.out.println("Brand: " +brand);
-        System.out.println("Model: " +model);
-        System.out.println("Price: " +price);
-        System.out.println();
+        System.out.println("Car Brand: " +brand);
+        System.out.println("Car Model: " +model);
+        System.out.println("Car Price: " +price);
     }
 }
 public class OOPS {
 
-    public static void main(String[] args) {
-        Car c1 = new Car("Toyoto","Innova",2800000);
-        Car c2 = new Car("Hyundai","Cretaa",1500000);
+    public static void main(String[] args){
+        Car c1 = new Car("Toyoto", "Innova",1200000);
+        Car c2 = new Car("Hyundai", "Creta", 1000000);
         c1.displayCar();
         c2.displayCar();
     }
 }
+
+// class Car{
+//     String brand;
+//     String model;
+//     int price;
+//     Car(String brand, String model, int price){
+//         this.brand = brand;
+//         this.model = model;
+//         this.price = price;
+//     }
+//     void displayCar(){
+//         System.out.println("Brand: " +brand);
+//         System.out.println("Model: " +model);
+//         System.out.println("Price: " +price);
+//         System.out.println();
+//     }
+// }
+// public class OOPS {
+
+//     public static void main(String[] args) {
+//         Car c1 = new Car("Toyoto","Innova",2800000);
+//         Car c2 = new Car("Hyundai","Cretaa",1500000);
+//         c1.displayCar();
+//         c2.displayCar();
+//     }
+// }
 
 // class Student{
 //     String name;
