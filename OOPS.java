@@ -118,54 +118,54 @@
 //     }
 // }
 
-// class Car{
-//     String brand;
-//     String model;
-//     int price;
-//     Car(String brand, String model, int price){
-//         this.brand = brand;
-//         this.model = model;
-//         this.price = price;
-//     }
-//     void displayCar(){
-//         System.out.println("Brand: " +brand);
-//         System.out.println("Model: " +model);
-//         System.out.println("Price: " +price);
-//         System.out.println();
-//     }
-// }
-// public class OOPS {
-
-//     public static void main(String[] args) {
-//         Car c1 = new Car("Toyoto","Innova",2000000);
-//         Car c2 = new Car("Hyundai","Creat",1800000);
-//         c1.displayCar();
-//         c2.displayCar();
-//     }
-// }
-
-class Student{
-    String name;
-    int age;
-    double marks;
-    Student(String name, int age, double marks){
-        this.name = name;
-        this.age = age;
-        this.marks = marks;
+class Car{
+    String brand;
+    String model;
+    int price;
+    Car(String brand, String model, int price){
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
     }
-    void studentDetails(){
-        System.out.println("Student Name: " +name);
-        System.out.println("Age: " +age);
-        System.out.println("Marks Gained: " +marks);
+    void displayCar(){
+        System.out.println("Brand: " +brand);
+        System.out.println("Model: " +model);
+        System.out.println("Price: " +price);
         System.out.println();
     }
 }
 public class OOPS {
 
     public static void main(String[] args) {
-        Student s1 = new Student("Mahaa", 24, 75);
-        Student s2 = new Student("Bhumika",21,82);
-        s1.studentDetails();
-        s2.studentDetails();
+        Car c1 = new Car("Toyoto","Innova",2000000);
+        Car c2 = new Car("Hyundai","Creat",1800000);
+        c1.displayCar();
+        c2.displayCar();
     }
 }
+
+// class Student{
+//     String name;
+//     int age;
+//     double marks;
+//     Student(String name, int age, double marks){
+//         this.name = name;
+//         this.age = age;
+//         this.marks = marks;
+//     }
+//     void studentDetails(){
+//         System.out.println("Student Name: " +name);
+//         System.out.println("Age: " +age);
+//         System.out.println("Marks Gained: " +marks);
+//         System.out.println();
+//     }
+// }
+// public class OOPS {
+
+//     public static void main(String[] args) {
+//         Student s1 = new Student("Mahaa", 24, 75);
+//         Student s2 = new Student("Bhumika",21,82);
+//         s1.studentDetails();
+//         s2.studentDetails();
+//     }
+// }
