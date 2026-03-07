@@ -163,8 +163,8 @@ class Student{
 public class OOPS {
 
     public static void main(String[] args) {
-        Student s1 = new Student("Sudha", 28, 75);
-        Student s2 = new Student("Bhumika",21,90);
+        Student s1 = new Student("Mahaa", 24, 75);
+        Student s2 = new Student("Bhumika",21,82);
         s1.studentDetails();
         s2.studentDetails();
     }
