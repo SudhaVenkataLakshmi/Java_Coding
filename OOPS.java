@@ -137,8 +137,8 @@ class Car{
 public class OOPS {
 
     public static void main(String[] args) {
-        Car c1 = new Car("Toyoto","Innova",2000000);
-        Car c2 = new Car("Hyundai","Creat",1800000);
+        Car c1 = new Car("Toyoto","Innova",3000000);
+        Car c2 = new Car("Hyundai","Cretaa",2500000);
         c1.displayCar();
         c2.displayCar();
     }
