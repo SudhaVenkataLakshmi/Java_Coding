@@ -262,7 +262,7 @@
 
 class Person {
     void name(String n) {
-        System.out.println(n+ " How are you?");
+        System.out.println(n+ ", How are you?");
     }
     void age(int a) {
         System.out.println("Your age is: " +a);
