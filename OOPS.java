@@ -323,19 +323,60 @@
 // }
 
 
-class Person {
-    void work() {
-        System.out.println("Person Works");
+// class Person {
+//     void work() {
+//         System.out.println("Person Works");
+//     }
+// }
+// class Student extends Person {
+//     void work() {
+//         System.out.println("Student studies");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Student s = new Student();
+//         s.work();
+//     }
+// }
+
+
+// class Vehicle {
+//     void start() {
+//         System.out.println("Vehicle Starts");
+//     }
+// }
+// class Car extends Vehicle {
+//     void start() {
+//         System.out.println("Car starts with Key");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Vehicle v = new Vehicle();
+//         v.start();
+//         Car c = new Car();
+//         c.start();
+//     }
+// }
+
+
+
+class Vehicle {
+    void start() {
+        System.out.println("Vehicle Starts");
     }
 }
-class Student extends Person {
-    void work() {
-        System.out.println("Student studies");
+class Car extends Vehicle {
+    void start() {
+        System.out.println("Car starts with Key");
     }
 }
 public class OOPS {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.work();
+        Vehicle v1 = new Vehicle();
+        v1.start();
+        Vehicle v2 = new Car();
+        v2.start();
     }
 }
