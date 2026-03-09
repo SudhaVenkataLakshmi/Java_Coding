@@ -362,21 +362,44 @@
 
 
 
-class Vehicle {
-    void start() {
-        System.out.println("Vehicle Starts");
-    }
+// class Vehicle {
+//     void start() {
+//         System.out.println("Vehicle Starts");
+//     }
+// }
+// class Car extends Vehicle {
+//     void start() {
+//         System.out.println("Car starts with Key");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Vehicle v1 = new Vehicle();
+//         v1.start();
+//         Vehicle v2 = new Car();
+//         v2.start();
+//     }
+// }
+
+
+
+
+// super keyword
+
+class Person {
+    String name = "Person Name";
 }
-class Car extends Vehicle {
-    void start() {
-        System.out.println("Car starts with Key");
+class Student extends Person {
+    String name = "Student Name";
+    void display() {
+        System.out.println(name);
+        System.out.println(super.name);
     }
 }
 public class OOPS {
+
     public static void main(String[] args) {
-        Vehicle v1 = new Vehicle();
-        v1.start();
-        Vehicle v2 = new Car();
-        v2.start();
+        Student s = new Student();
+        s.display();
     }
 }
