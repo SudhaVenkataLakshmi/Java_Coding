@@ -211,24 +211,48 @@
 
 
 
-class CalculatorClass{
-    int multiply(int a, int b){
-        return a * b;
+// class CalculatorClass{
+//     int multiply(int a, int b){
+//         return a * b;
+//     }
+//     int multiply(int a, int b, int c){
+//         return a * b * c;
+//     }
+//     double multiply(double a, double b){
+//         return a * b;
+//     }
+// }
+// public class OOPS {
+
+//     public static void main(String[] args) {
+//         CalculatorClass obj = new CalculatorClass();
+//         System.out.println(obj.multiply(10, 4));
+//         System.out.println(obj.multiply(20,50, 2));
+//         System.out.println(obj.multiply(12.5,18.5));
+//     }
+// }
+
+
+
+
+//Inheritance
+
+
+class Animal{
+    void eat() {
+        System.out.println("Animal is Eating.");
     }
-    int multiply(int a, int b, int c){
-        return a * b * c;
-    }
-    double multiply(double a, double b){
-        return a * b;
+}
+class Dog extends Animal{
+    void bark() {
+        System.out.println("Dog is Barking");
     }
 }
 public class OOPS {
 
     public static void main(String[] args) {
-        CalculatorClass obj = new CalculatorClass();
-        System.out.println(obj.multiply(10, 4));
-        System.out.println(obj.multiply(20,50, 2));
-        System.out.println(obj.multiply(12.5,18.5));
+        Dog d1 = new Dog(); 
+        d1.eat();
     }
 }
 
