@@ -192,18 +192,43 @@
 // }
 
 
-class Display{
-    void show(int a){
-        System.out.println("Integer: " +a);
+// class Display{
+//     void show(int a){
+//         System.out.println("Integer: " +a);
+//     }
+//     void show(String str){
+//         System.out.println("String: " +str);
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Display obj = new Display();
+//         obj.show(10);
+//         obj.show("Hello");
+//     }
+// }
+
+
+
+
+class CalculatorClass{
+    int multiply(int a, int b){
+        return a * b;
     }
-    void show(String str){
-        System.out.println("String: " +str);
+    int multiply(int a, int b, int c){
+        return a * b * c;
+    }
+    double multiply(double a, double b){
+        return a * b;
     }
 }
 public class OOPS {
+
     public static void main(String[] args) {
-        Display obj = new Display();
-        obj.show(10);
-        obj.show("Hello");
+        CalculatorClass obj = new CalculatorClass();
+        System.out.println(obj.multiply(10, 4));
+        System.out.println(obj.multiply(20,50, 2));
+        System.out.println(obj.multiply(12.5,18.5));
     }
 }
+
