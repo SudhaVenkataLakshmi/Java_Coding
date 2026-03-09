@@ -173,6 +173,7 @@
 
 
 
+
 class MathOperations{
     int add(int a, int b){
         return a + b;
@@ -185,7 +186,7 @@ public class OOPS {
 
     public static void main(String[] args) {
         MathOperations obj = new MathOperations();
-        System.out.println(obj.add(15,20));
-        System.out.println(obj.add(5,20,50));
+        System.out.println(obj.add(30,10));
+        System.out.println(obj.add(100,30));
     }
 }
