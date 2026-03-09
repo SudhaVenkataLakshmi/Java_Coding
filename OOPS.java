@@ -174,19 +174,36 @@
 
 
 
-class MathOperations{
-    int add(int a, int b){
-        return a + b;
+// class MathOperations{
+//     int add(int a, int b){
+//         return a + b;
+//     }
+//     int add(int a, int b, int c){
+//         return a + b + c;
+//     }
+// }
+// public class OOPS {
+
+//     public static void main(String[] args) {
+//         MathOperations obj = new MathOperations();
+//         System.out.println(obj.add(30,10));
+//         System.out.println(obj.add(100,30));
+//     }
+// }
+
+
+class Display{
+    void show(int a){
+        System.out.println("Integer: " +a);
     }
-    int add(int a, int b, int c){
-        return a + b + c;
+    void show(String str){
+        System.out.println("String: " +str);
     }
 }
 public class OOPS {
-
     public static void main(String[] args) {
-        MathOperations obj = new MathOperations();
-        System.out.println(obj.add(30,10));
-        System.out.println(obj.add(100,30));
+        Display obj = new Display();
+        obj.show(10);
+        obj.show("Hello");
     }
 }
