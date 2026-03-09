@@ -93,30 +93,30 @@
 
 
 
-class Car{
-    String brand;
-    String model;
-    int price;
-    Car(String b, String m, int p){
-        brand = b;
-        model = m;
-        price = p;
-    }
-    void displayCar(){
-        System.out.println("Car Brand: " +brand);
-        System.out.println("Car Model: " +model);
-        System.out.println("Car Price: " +price);
-    }
-}
-public class OOPS {
+// class Car{
+//     String brand;
+//     String model;
+//     int price;
+//     Car(String b, String m, int p){
+//         brand = b;
+//         model = m;
+//         price = p;
+//     }
+//     void displayCar(){
+//         System.out.println("Car Brand: " +brand);
+//         System.out.println("Car Model: " +model);
+//         System.out.println("Car Price: " +price);
+//     }
+// }
+// public class OOPS {
 
-    public static void main(String[] args){
-        Car c1 = new Car("Toyoto", "Innova",1200000);
-        Car c2 = new Car("Hyundai", "Creta", 1000000);
-        c1.displayCar();
-        c2.displayCar();
-    }
-}
+//     public static void main(String[] args){
+//         Car c1 = new Car("Toyoto", "Innova",1200000);
+//         Car c2 = new Car("Hyundai", "Creta", 1000000);
+//         c1.displayCar();
+//         c2.displayCar();
+//     }
+// }
 
 // class Car{
 //     String brand;
@@ -169,3 +169,23 @@ public class OOPS {
 //         s2.studentDetails();
 //     }
 // }
+
+
+
+
+class MathOperations{
+    int add(int a, int b){
+        return a + b;
+    }
+    int add(int a, int b, int c){
+        return a + b + c;
+    }
+}
+public class OOPS {
+
+    public static void main(String[] args) {
+        MathOperations obj = new MathOperations();
+        System.out.println(obj.add(15,20));
+        System.out.println(obj.add(5,20,50));
+    }
+}
