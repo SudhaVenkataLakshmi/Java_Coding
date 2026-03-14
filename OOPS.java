@@ -387,10 +387,10 @@
 // super keyword
 
 class Person {
-    String name = "Person Name";
+    String name = "Person";
 }
 class Student extends Person {
-    String name = "Student Name";
+    String name = "Student";
     void display() {
         System.out.println(name);
         System.out.println(super.name);
@@ -403,3 +403,5 @@ public class OOPS {
         s.display();
     }
 }
+
+
