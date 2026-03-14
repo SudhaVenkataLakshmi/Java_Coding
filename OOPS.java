@@ -341,9 +341,30 @@
 // }
 
 
+class Vehicle {
+    void start() {
+        System.out.println("Vehicle Starts earlier");
+    }
+}
+class Car extends Vehicle {
+    void start() {
+        System.out.println("Car starts with new Key");
+    }
+}
+public class OOPS {
+    public static void main(String[] args) {
+        Vehicle v = new Vehicle();
+        v.start();
+        Car c = new Car();
+        c.start();
+    }
+}
+
+
+
 // class Vehicle {
 //     void start() {
-//         System.out.println("Vehicle Starts");
+//         System.out.println("Vehicle Starts at 9 PM");
 //     }
 // }
 // class Car extends Vehicle {
@@ -353,33 +374,12 @@
 // }
 // public class OOPS {
 //     public static void main(String[] args) {
-//         Vehicle v = new Vehicle();
-//         v.start();
-//         Car c = new Car();
-//         c.start();
+//         Vehicle v1 = new Vehicle();
+//         v1.start();
+//         Vehicle v2 = new Car();
+//         v2.start();
 //     }
 // }
-
-
-
-class Vehicle {
-    void start() {
-        System.out.println("Vehicle Starts at 9 PM");
-    }
-}
-class Car extends Vehicle {
-    void start() {
-        System.out.println("Car starts with Key");
-    }
-}
-public class OOPS {
-    public static void main(String[] args) {
-        Vehicle v1 = new Vehicle();
-        v1.start();
-        Vehicle v2 = new Car();
-        v2.start();
-    }
-}
 
 
 
