@@ -362,46 +362,46 @@
 
 
 
-// class Vehicle {
-//     void start() {
-//         System.out.println("Vehicle Starts");
-//     }
-// }
-// class Car extends Vehicle {
-//     void start() {
-//         System.out.println("Car starts with Key");
-//     }
-// }
-// public class OOPS {
-//     public static void main(String[] args) {
-//         Vehicle v1 = new Vehicle();
-//         v1.start();
-//         Vehicle v2 = new Car();
-//         v2.start();
-//     }
-// }
+class Vehicle {
+    void start() {
+        System.out.println("Vehicle Starts at 9 PM");
+    }
+}
+class Car extends Vehicle {
+    void start() {
+        System.out.println("Car starts with Key");
+    }
+}
+public class OOPS {
+    public static void main(String[] args) {
+        Vehicle v1 = new Vehicle();
+        v1.start();
+        Vehicle v2 = new Car();
+        v2.start();
+    }
+}
 
 
 
 
 // super keyword
 
-class Person {
-    String name = "Heyy";
-}
-class Student extends Person {
-    String name = "Sudhaaaa";
-    void display() {
-        System.out.println(name);
-        System.out.println(super.name);
-    }
-}
-public class OOPS {
+// class Person {
+//     String name = "Heyy";
+// }
+// class Student extends Person {
+//     String name = "Sudhaaaa";
+//     void display() {
+//         System.out.println(name);
+//         System.out.println(super.name);
+//     }
+// }
+// public class OOPS {
 
-    public static void main(String[] args) {
-        Student s = new Student();
-        s.display();
-    }
-}
+//     public static void main(String[] args) {
+//         Student s = new Student();
+//         s.display();
+//     }
+// }
 
 
