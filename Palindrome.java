@@ -10,9 +10,9 @@ public class Palindrome{
             rev += str.charAt(i);
         }
         if(str.equals(rev)){
-            System.out.println("This is Palindrome");
+            System.out.println("This is Palindrome String");
         }else{
-            System.out.println("This is not a Palindrome");
+            System.out.println("This is not a Palindrome String");
         }
         sc.close();
     }
