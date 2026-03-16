@@ -1,4 +1,4 @@
-public class Main {
+public class LongestPal {
 
     public static boolean isPalindrome(String str) {
         int left = 0;
