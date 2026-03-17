@@ -305,40 +305,40 @@
 
 
 
-// class Animal {
-//     void sound() {
-//         System.out.println("Animal makes Sound");
-//     }
-// }
-// class Dog extends Animal {
-//     void sound() {
-//         System.out.println("Dog Barks");
-//     }
-// }
-// public class OOPS {
-//     public static void main(String[] args) {
-//         Dog d = new Dog();
-//         d.sound();
-//     }
-// }
-
-
-class Person {
-    void work() {
-        System.out.println("Person Walks");
+class Animal {
+    void sound() {
+        System.out.println("Animal walks rudely");
     }
 }
-class Student extends Person {
-    void work() {
-        System.out.println("Student studies");
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog Barks on people");
     }
 }
 public class OOPS {
     public static void main(String[] args) {
-        Student s = new Student();
-        s.work();
+        Dog d = new Dog();
+        d.sound();
     }
 }
+
+
+// class Person {
+//     void work() {
+//         System.out.println("Person Walks");
+//     }
+// }
+// class Student extends Person {
+//     void work() {
+//         System.out.println("Student studies");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Student s = new Student();
+//         s.work();
+//     }
+// }
 
 
 // class Vehicle {
