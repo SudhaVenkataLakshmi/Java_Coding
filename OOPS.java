@@ -323,42 +323,42 @@
 // }
 
 
-// class Person {
-//     void work() {
-//         System.out.println("Person Works");
-//     }
-// }
-// class Student extends Person {
-//     void work() {
-//         System.out.println("Student studies");
-//     }
-// }
-// public class OOPS {
-//     public static void main(String[] args) {
-//         Student s = new Student();
-//         s.work();
-//     }
-// }
-
-
-class Vehicle {
-    void start() {
-        System.out.println("Vehicle Starts earlier");
+class Person {
+    void work() {
+        System.out.println("Person Walks");
     }
 }
-class Car extends Vehicle {
-    void start() {
-        System.out.println("Car starts with new Key");
+class Student extends Person {
+    void work() {
+        System.out.println("Student studies");
     }
 }
 public class OOPS {
     public static void main(String[] args) {
-        Vehicle v = new Vehicle();
-        v.start();
-        Car c = new Car();
-        c.start();
+        Student s = new Student();
+        s.work();
     }
 }
+
+
+// class Vehicle {
+//     void start() {
+//         System.out.println("Vehicle Starts earlier");
+//     }
+// }
+// class Car extends Vehicle {
+//     void start() {
+//         System.out.println("Car starts with new Key");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Vehicle v = new Vehicle();
+//         v.start();
+//         Car c = new Car();
+//         c.start();
+//     }
+// }
 
 
 
