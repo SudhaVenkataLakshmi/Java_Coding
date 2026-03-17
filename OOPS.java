@@ -285,42 +285,42 @@
 // }
 
 
-// class Parent {
-//     void show() {
-//         System.out.println("Hello");
-//     }
-// }
-// class Child extends Parent {
-//     void show() {
-//         System.out.println("Heyy");
-//     }
-// }
-// public class OOPS {
-//     public static void main(String[] args) {
-//         Child ch = new Child();
-//         ch.show();
-//         ch.show();
-//     }
-// }
-
-
-
-class Animal {
-    void sound() {
-        System.out.println("Animal walks rudely");
+class Parent {
+    void show() {
+        System.out.println("Heyyy Man!");
     }
 }
-class Dog extends Animal {
-    void sound() {
-        System.out.println("Dog Barks on people");
+class Child extends Parent {
+    void show() {
+        System.out.println("How are you?");
     }
 }
 public class OOPS {
     public static void main(String[] args) {
-        Dog d = new Dog();
-        d.sound();
+        Child ch = new Child();
+        ch.show();
+        ch.show();
     }
 }
+
+
+
+// class Animal {
+//     void sound() {
+//         System.out.println("Animal walks rudely");
+//     }
+// }
+// class Dog extends Animal {
+//     void sound() {
+//         System.out.println("Dog Barks on people");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Dog d = new Dog();
+//         d.sound();
+//     }
+// }
 
 
 // class Person {
