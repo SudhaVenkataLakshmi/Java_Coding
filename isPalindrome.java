@@ -16,7 +16,7 @@ public class isPalindrome {
     }
 
     public static void main(String[] args) {
-        String s = "babad";
+        String s = "adabad";
         String longest = "";
 
         for (int i = 0; i < s.length(); i++) {
