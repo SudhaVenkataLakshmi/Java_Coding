@@ -211,26 +211,26 @@
 
 
 
-// class CalculatorClass{
-//     int multiply(int a, int b){
-//         return a * b;
-//     }
-//     int multiply(int a, int b, int c){
-//         return a * b * c;
-//     }
-//     double multiply(double a, double b){
-//         return a * b;
-//     }
-// }
-// public class OOPS {
+class CalculatorClass{
+    int multiply(int a, int b){
+        return a * b;
+    }
+    int multiply(int a, int b, int c){
+        return a * b * c;
+    }
+    double multiply(double a, double b){
+        return a * b;
+    }
+}
+public class OOPS {
 
-//     public static void main(String[] args) {
-//         CalculatorClass obj = new CalculatorClass();
-//         System.out.println(obj.multiply(10, 4));
-//         System.out.println(obj.multiply(20,50, 2));
-//         System.out.println(obj.multiply(12.5,18.5));
-//     }
-// }
+    public static void main(String[] args) {
+        CalculatorClass obj = new CalculatorClass();
+        System.out.println(obj.multiply(30, 4));
+        System.out.println(obj.multiply(20,30, 2));
+        System.out.println(obj.multiply(15.2,18.5));
+    }
+}
 
 
 
@@ -238,24 +238,24 @@
 //Inheritance
 
 
-class Animal{
-    void eat() {
-        System.out.println("Animals are wild.");
-    }
-}
-class Cat extends Animal{
-    void cute() {
-        System.out.println("Cat is Cute");
-    }
-}
-public class OOPS {
+// class Animal{
+//     void eat() {
+//         System.out.println("Animals are wild.");
+//     }
+// }
+// class Cat extends Animal{
+//     void cute() {
+//         System.out.println("Cat is Cute");
+//     }
+// }
+// public class OOPS {
 
-    public static void main(String[] args) {
-        Cat d1 = new Cat(); 
-        d1.eat();
-        d1.cute();
-    }
-}
+//     public static void main(String[] args) {
+//         Cat d1 = new Cat(); 
+//         d1.eat();
+//         d1.cute();
+//     }
+// }
 
 
 
