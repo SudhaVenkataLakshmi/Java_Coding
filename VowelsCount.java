@@ -13,6 +13,6 @@ public class VowelsCount {
             count ++;
         }
       }
-      System.out.println("Count of Vowels in Given String: " +count);
+      System.out.println("Count of Vowels: " +count);
     }
 }
