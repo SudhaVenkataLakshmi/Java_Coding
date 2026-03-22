@@ -243,17 +243,17 @@ class Animal{
         System.out.println("Animals are wild.");
     }
 }
-class Dog extends Animal{
-    void bark() {
-        System.out.println("Dog is Barking");
+class Cat extends Animal{
+    void cute() {
+        System.out.println("Cat is Cute");
     }
 }
 public class OOPS {
 
     public static void main(String[] args) {
-        Dog d1 = new Dog(); 
+        Cat d1 = new Cat(); 
         d1.eat();
-        d1.bark();
+        d1.cute();
     }
 }
 
