@@ -260,19 +260,19 @@
 
 
 
-// class Person {
-//     void name(String n) {
-//         System.out.println(n+ ", How are you?");
-//     }
-//     void age(int a) {
-//         System.out.println("Your age is: " +a);
-//     }
-// }
-// class Student extends Person {
-//     void marks(int m) {
-//         System.out.println("Marks gained: " +m);
-//     }
-// }
+class Person {
+    void name(String n) {
+        System.out.println(n+ ", How are you?");
+    }
+    void age(int a) {
+        System.out.println("Your age is: " +a);
+    }
+}
+class Student extends Person {
+    void marks(int m) {
+        System.out.println("Marks: " +m);
+    }
+}
 
 // public class OOPS {
 
@@ -285,23 +285,23 @@
 // }
 
 
-class Parent {
-    void show() {
-        System.out.println("Heyyy Man!");
-    }
-}
-class Child extends Parent {
-    void show() {
-        System.out.println("How are you?");
-    }
-}
-public class OOPS {
-    public static void main(String[] args) {
-        Child ch = new Child();
-        ch.show();
-        ch.show();
-    }
-}
+// class Parent {
+//     void show() {
+//         System.out.println("Heyyy Man!");
+//     }
+// }
+// class Child extends Parent {
+//     void show() {
+//         System.out.println("How are you?");
+//     }
+// }
+// public class OOPS {
+//     public static void main(String[] args) {
+//         Child ch = new Child();
+//         ch.show();
+//         ch.show();
+//     }
+// }
 
 
 
