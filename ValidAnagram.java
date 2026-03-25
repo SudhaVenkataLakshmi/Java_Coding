@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class ValidAnagram {
     public static void main(String[] args) {
-        String s = "care";
-        String t = "race";
+        String s = "brag";
+        String t = "grab";
         char[] arr1 = s.toCharArray();
         char[] arr2 = t.toCharArray();
         Arrays.sort(arr1);
