@@ -226,8 +226,8 @@ public class OOPS {
 
     public static void main(String[] args) {
         CalculatorClass obj = new CalculatorClass();
-        System.out.println(obj.multiply(30, 12));
-        System.out.println(obj.multiply(20,30, 18));
+        System.out.println(obj.multiply(38, 15));
+        System.out.println(obj.multiply(22,35, 18));
         System.out.println(obj.multiply(25.5,18.5));
     }
 }
