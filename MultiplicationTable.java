@@ -6,7 +6,7 @@ public class MultiplicationTable {
         System.out.print("Enter any value: ");
         int value = scanner.nextInt();
 
-        System.out.println("Multiplication Table for " + value + ":");
+        System.out.println("Multiplication table for  " + value + "is  : ");
         for(int i = 1; i <= 10; i++){
             System.out.println(value + " X " + i + " = " + (value * i));
         }
