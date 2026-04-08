@@ -8,6 +8,6 @@ public class missingNumber {
             actualSum = actualSum + arr[i];
         }
         int missingNumber = expectedSum - actualSum;
-        System.out.println("Missing Number is: " +missingNumber);
+        System.out.println("Missing Number: " +missingNumber);
     }
 }
