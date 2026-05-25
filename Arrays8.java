@@ -7,6 +7,7 @@ public class Arrays8 {
         for(int i = 0; i < arr1.length; i++){
             arr2[i] = arr1[i];
         }
+        System.out.println(Arrays.toString(arr1));
         System.out.println(Arrays.toString(arr2));
     }
 }
