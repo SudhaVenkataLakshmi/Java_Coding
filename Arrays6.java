@@ -1,6 +1,6 @@
 public class Arrays6 {
     public static void main(String[] args) {
-        int[] arr = {12,5,6,8,11,3,10,16};
+        int[] arr = {30,20,45,33,21,18,11,9};
         int even = 0;
         int odd = 0;
         for(int i = 0; i < arr.length; i++){
