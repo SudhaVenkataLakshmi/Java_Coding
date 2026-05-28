@@ -1,6 +1,6 @@
 public class Arrays9 {
     public static void main(String[] args) {
-        int[] arr = {10,50,20,60,120,140,80};
+        int[] arr = {9,4,2,11,17,25,1,8,15};
         int largest = Integer.MIN_VALUE;
         int secLargest = Integer.MIN_VALUE;
         for(int i = 0; i < arr.length; i++) {
