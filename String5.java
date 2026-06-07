@@ -1,7 +1,7 @@
 public class String5 {
      public static void main(String[] args) {
 
-        String str = "Practice makes man Perfect";
+        String str = "Perfect";
 
         int count = 0;
 
