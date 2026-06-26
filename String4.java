@@ -1,6 +1,6 @@
 public class String4 {
     public static void main(String[] args) {
-        String str = "Programming";
+        String str = "Sudha Venkata Lakshmi";
         int count = 0;
         for(int i = 0; i < str.length(); i++){
             char ch = Character.toLowerCase(str.charAt(i));
