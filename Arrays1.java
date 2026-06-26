@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Arrays1{
     public static void main(String[] args) {
-        int[] arr = {20,10,5,15,25,60,90,120};
+        int[] arr = {10,40,5,3,12,19,8,6,7,11};
         int start = 0;
         int end = arr.length - 1;
         while(start < end){
