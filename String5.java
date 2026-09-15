@@ -1,7 +1,7 @@
 public class String5 {
      public static void main(String[] args) {
 
-        String str = "Practice";
+        String str = "accept";
 
         int count = 0;
 
